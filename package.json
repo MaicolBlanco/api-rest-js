@@ -1,0 +1,19 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaicolBlanco/api-rest-js.git"
+  },
+  "author": "Maicol Blanco Alvarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaicolBlanco/api-rest-js/issues"
+  },
+  "homepage": "https://github.com/MaicolBlanco/api-rest-js#readme"
+}
