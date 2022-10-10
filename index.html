@@ -17,6 +17,23 @@
     <link rel="stylesheet" href="./styles/app.css" />
   </head>
   <body>
+    <select name="languaje" id="lang">
+      <option class="optLang" value="fr">🇫🇷</option>
+      <option class="optLang" value="es-ES">🇪🇸</option>
+      <option class="optLang" value="en">🇺🇸</option>
+      <option class="optLang" value="pt-BR">🇧🇷</option>
+    </select>
+
+    <label class="header-lang" for="lang">Choose a Language:</label>
+    <select id="optionLanguages" onchange="optLang(this.value)">
+      <option value="gr">Alemán</option>
+      <option value="ar">Arabe</option>
+      <option value="es" selected="selected">Español</option>
+      <option value="fr">Francés</option>
+      <option value="en">Inglés</option>
+      <option value="pt">Portugues</option>
+    </select>
+
     <header id="header" class="header-container">
       <span class="header-arrow inactive">&lt;</span>
       <h1 class="header-title">ApiMovies</h1>
